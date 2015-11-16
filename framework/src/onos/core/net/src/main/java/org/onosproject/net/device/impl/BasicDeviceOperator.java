@@ -51,7 +51,7 @@ public final class BasicDeviceOperator implements ConfigOperator {
      * @return DeviceDescription based on both sources
      */
     public static DeviceDescription combine(BasicDeviceConfig bdc, DeviceDescription descr) {
-        if (bdc == null) {
+        if (bdc == null || descr == null) {
             return descr;
         }
 
@@ -61,7 +61,7 @@ public final class BasicDeviceOperator implements ConfigOperator {
         }
 
         SparseAnnotations sa = combine(bdc, descr.annotations());
-        return new DefaultDeviceDescription(descr.deviceURI(), type, descr.manufacturer(),
+        return new DefaultDeviceDescription(descr.deviceUri(), type, descr.manufacturer(),
                                             descr.hwVersion(), descr.swVersion(),
                                             descr.serialNumber(), descr.chassisId(), sa);
     }

@@ -1,0 +1,11 @@
+org/apache/karaf/web/commands/Launch.class
+org/apache/karaf/web/WebBundle.class
+org/apache/karaf/web/commands/Stop.class
+org/apache/karaf/web/WebContainerService.class
+org/apache/karaf/web/commands/List.class
+org/apache/karaf/web/internal/osgi/Activator.class
+org/apache/karaf/web/commands/Start.class
+org/apache/karaf/web/internal/WebEventHandler.class
+org/apache/karaf/web/management/WebMBean.class
+org/apache/karaf/web/internal/WebContainerServiceImpl.class
+org/apache/karaf/web/management/internal/WebMBeanImpl.class

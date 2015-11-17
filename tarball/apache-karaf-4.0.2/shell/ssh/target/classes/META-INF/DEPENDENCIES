@@ -1,0 +1,31 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Karaf :: Shell :: SSH
+
+
+From: 'JLine' (http://jline.sourceforge.net)
+  - JLine (http://jline.sourceforge.net) jline:jline:jar:2.13:compile
+    License: The BSD License  (http://jline.sourceforge.net/license.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Felix File Install (http://felix.apache.org/site/apache-felix-file-install.html) org.apache.felix:org.apache.felix.fileinstall:jar:3.5.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: JAAS :: Boot (http://www.apache.org/karaf/jaas/org.apache.karaf.jaas.boot/) org.apache.karaf.jaas:org.apache.karaf.jaas.boot:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: JAAS :: Config (http://www.apache.org/karaf/jaas/org.apache.karaf.jaas.config/) org.apache.karaf.jaas:org.apache.karaf.jaas.config:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: JAAS :: Modules (http://www.apache.org/karaf/jaas/org.apache.karaf.jaas.modules/) org.apache.karaf.jaas:org.apache.karaf.jaas.modules:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Shell :: Core (http://www.apache.org/karaf/shell/org.apache.karaf.shell.core/) org.apache.karaf.shell:org.apache.karaf.shell.core:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache ServiceMix :: Bundles :: not-yet-commons-ssl (http://servicemix.apache.org/bundles-pom/org.apache.servicemix.bundles.not-yet-commons-ssl/) org.apache.servicemix.bundles:org.apache.servicemix.bundles.not-yet-commons-ssl:bundle:0.3.11_1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Mina SSHD :: Core (http://www.apache.org/sshd/sshd-core/) org.apache.sshd:sshd-core:jar:0.14.0
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

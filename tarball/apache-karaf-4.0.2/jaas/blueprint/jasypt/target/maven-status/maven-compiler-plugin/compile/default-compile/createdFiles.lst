@@ -1,0 +1,2 @@
+org/apache/karaf/jaas/blueprint/jasypt/handler/EncryptablePropertyPlaceholder.class
+org/apache/karaf/jaas/blueprint/jasypt/handler/NamespaceHandler.class

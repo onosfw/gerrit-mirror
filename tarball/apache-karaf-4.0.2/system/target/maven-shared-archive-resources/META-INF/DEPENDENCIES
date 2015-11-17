@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Karaf :: System :: Core
+
+
+From: 'an unknown organization'
+  - JLine (http://nexus.sonatype.org/oss-repository-hosting.html/jline) jline:jline:jar:2.13
+    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Karaf :: Util (http://www.apache.org/karaf/org.apache.karaf.util/) org.apache.karaf:org.apache.karaf.util:jar:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: JAAS :: Boot (http://www.apache.org/karaf/jaas/org.apache.karaf.jaas.boot/) org.apache.karaf.jaas:org.apache.karaf.jaas.boot:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Shell :: Core (http://www.apache.org/karaf/shell/org.apache.karaf.shell.core/) org.apache.karaf.shell:org.apache.karaf.shell.core:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Mina SSHD :: Core (http://www.apache.org/sshd/sshd-core/) org.apache.sshd:sshd-core:jar:0.14.0
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

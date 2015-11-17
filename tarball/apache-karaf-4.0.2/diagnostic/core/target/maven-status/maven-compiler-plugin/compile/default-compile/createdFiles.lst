@@ -1,0 +1,8 @@
+org/apache/karaf/diagnostic/common/FeaturesDumpProvider.class
+org/apache/karaf/diagnostic/management/DiagnosticDumpMBean.class
+org/apache/karaf/diagnostic/management/internal/DiagnosticDumpMBeanImpl.class
+org/apache/karaf/diagnostic/common/TextDumpProvider.class
+org/apache/karaf/diagnostic/common/LogDumpProvider.class
+org/apache/karaf/diagnostic/internal/Activator$1.class
+org/apache/karaf/diagnostic/command/DumpCommand.class
+org/apache/karaf/diagnostic/internal/Activator.class

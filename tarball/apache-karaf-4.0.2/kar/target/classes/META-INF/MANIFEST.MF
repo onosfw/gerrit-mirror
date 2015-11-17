@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Activator: org.apache.karaf.kar.internal.osgi.Activator
+Bundle-Description: This bundle provides core implementation of the KAR 
+ management service.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: KAR :: Core
+Bundle-SymbolicName: org.apache.karaf.kar.core
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.kar;uses:="javax.management";version="4
+ .0.2"
+Import-Package: javax.management,javax.xml.parsers,javax.xml.transform,o
+ rg.apache.karaf.features;version="[4.0,5)";resolution:=optional,org.apa
+ che.karaf.features.command.completers;version="[4.0,5)";resolution:=opt
+ ional,org.apache.karaf.kar,org.apache.karaf.shell.api.action;version="[
+ 4.0,5)";resolution:=optional,org.apache.karaf.shell.api.action.lifecycl
+ e;version="[4.0,5)";resolution:=optional,org.apache.karaf.shell.api.con
+ sole;version="[4.0,5)";resolution:=optional,org.apache.karaf.shell.supp
+ ort.completers;version="[4.0,5)";resolution:=optional,org.apache.karaf.
+ shell.support.table;version="[4.0,5)";resolution:=optional,org.osgi.fra
+ mework;version="[1.8,2)",org.osgi.service.cm;version="[1.5,2)",org.slf4
+ j;version="[1.7,2)",org.w3c.dom,org.xml.sax
+Karaf-Commands: org.apache.karaf.features.command,org.apache.karaf.featu
+ res.command.completers,org.apache.karaf.kar.command,org.apache.karaf.ka
+ r.command.completers
+Provide-Capability: osgi.service;effective:=active;objectClass="org.apac
+ he.karaf.kar.KarService"
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.apache.karaf.features.FeaturesService)",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.7))"

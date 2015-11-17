@@ -1,0 +1,15 @@
+org/apache/karaf/diagnostic/core/Dump.class
+org/apache/karaf/diagnostic/core/providers/EnvironmentDumpProvider.class
+org/apache/karaf/diagnostic/core/internal/DumpHandler.class
+org/apache/karaf/diagnostic/core/common/ClosingEntryOutputStreamWrapper.class
+org/apache/karaf/diagnostic/core/providers/MemoryDumpProvider.class
+org/apache/karaf/diagnostic/core/providers/BundleDumpProvider.class
+org/apache/karaf/diagnostic/core/providers/HeapDumpProvider.class
+org/apache/karaf/diagnostic/core/providers/ThreadDumpProvider.class
+org/apache/karaf/diagnostic/core/common/ZipDumpDestination.class
+org/apache/karaf/diagnostic/core/providers/ThreadDumpProvider$1.class
+org/apache/karaf/diagnostic/core/common/TextDumpProvider.class
+org/apache/karaf/diagnostic/core/internal/Activator.class
+org/apache/karaf/diagnostic/core/DumpProvider.class
+org/apache/karaf/diagnostic/core/DumpDestination.class
+org/apache/karaf/diagnostic/core/common/DirectoryDumpDestination.class

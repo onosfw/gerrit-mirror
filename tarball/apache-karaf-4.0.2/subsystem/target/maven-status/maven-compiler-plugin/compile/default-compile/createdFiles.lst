@@ -1,0 +1,11 @@
+org/apache/karaf/subsystem/commands/InstallAction.class
+org/apache/karaf/subsystem/commands/ListAction.class
+org/apache/karaf/subsystem/commands/SubsystemCompleter.class
+org/apache/karaf/subsystem/commands/UninstallAction.class
+org/apache/karaf/subsystem/commands/InfoAction$2.class
+org/apache/karaf/subsystem/commands/SubsystemSupport.class
+org/apache/karaf/subsystem/commands/StopAction.class
+org/apache/karaf/subsystem/commands/InfoAction$1.class
+org/apache/karaf/subsystem/commands/InfoAction$ClauseFormatter.class
+org/apache/karaf/subsystem/commands/StartAction.class
+org/apache/karaf/subsystem/commands/InfoAction.class

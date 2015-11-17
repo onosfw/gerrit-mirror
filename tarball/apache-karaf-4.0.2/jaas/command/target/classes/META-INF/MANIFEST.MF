@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Description: This bundle provides Karaf shell commands to manipul
+ ate JAAS security framework.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: JAAS :: Command
+Bundle-SymbolicName: org.apache.karaf.jaas.command
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.jaas.command;version="4.0.2";uses:="jav
+ ax.security.auth.login,org.apache.karaf.jaas.config,org.apache.karaf.ja
+ as.modules,org.apache.karaf.shell.api.action,org.apache.karaf.shell.api
+ .action.lifecycle,org.apache.karaf.shell.api.console",org.apache.karaf.
+ jaas.command.completers;version="4.0.2";uses:="org.apache.karaf.shell.a
+ pi.action.lifecycle,org.apache.karaf.shell.api.console"
+Import-Package: javax.security.auth,javax.security.auth.callback,javax.s
+ ecurity.auth.login,org.apache.karaf.jaas.boot.principal;version="[4.0,5
+ )",org.apache.karaf.jaas.command.completers;version="[4.0,5)",org.apach
+ e.karaf.jaas.config;version="[4.0,5)",org.apache.karaf.jaas.modules;ver
+ sion="[4.0,5)",org.apache.karaf.shell.api.action;version="[4.0,5)",org.
+ apache.karaf.shell.api.action.lifecycle;version="[4.0,5)",org.apache.ka
+ raf.shell.api.console;version="[4.0,5)",org.apache.karaf.shell.support;
+ version="[4.0,5)",org.apache.karaf.shell.support.completers;version="[4
+ .0,5)",org.apache.karaf.shell.support.table;version="[4.0,5)",org.osgi.
+ framework;version="[1.8,2)",org.slf4j;version="[1.7,2)"
+Karaf-Commands: org.apache.karaf.jaas.command,org.apache.karaf.jaas.comm
+ and.completers
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

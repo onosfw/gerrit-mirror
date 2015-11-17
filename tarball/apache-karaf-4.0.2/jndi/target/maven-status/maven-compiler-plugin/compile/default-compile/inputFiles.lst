@@ -1,0 +1,16 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/NamesCommand.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/AliasCommand.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/internal/JndiMBeanImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/ContextsCommand.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/UnbindCommand.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/CreateCommand.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/JndiMBean.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/KarafInitialContextFactory.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/BindCommand.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/completers/NamesCompleter.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/JndiService.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/completers/ServicesIdCompleter.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/internal/JndiServiceImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/DeleteCommand.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/command/completers/ContextsCompleter.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jndi/src/main/java/org/apache/karaf/jndi/internal/osgi/Activator.java

@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Activator: org.apache.karaf.webconsole.http.Activator
+Bundle-Description: This bundle provides Karaf http plugin for the Web C
+ onsole.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Web Console :: HTTP Plugin
+Bundle-SymbolicName: org.apache.karaf.webconsole.http
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.webconsole.http;uses:="javax.servlet.ht
+ tp,org.apache.felix.webconsole,org.ops4j.pax.web.service.spi,org.osgi.f
+ ramework";version="4.0.2"
+Import-Package: org.apache.felix.webconsole;version="[3,5)",javax.servle
+ t;version="[3.1,4)",javax.servlet.http;version="[3.1,4)",org.json;resol
+ ution:=optional,org.ops4j.pax.web.service.spi;version="[4.2,5)",org.osg
+ i.framework;version="[1.8,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

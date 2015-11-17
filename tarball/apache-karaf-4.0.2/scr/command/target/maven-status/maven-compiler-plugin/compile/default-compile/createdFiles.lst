@@ -1,0 +1,12 @@
+org/apache/karaf/scr/command/completer/ScrCompleterSupport.class
+org/apache/karaf/scr/command/action/ScrActionSupport.class
+org/apache/karaf/scr/command/action/ActivateAction.class
+org/apache/karaf/scr/command/action/DetailsAction.class
+org/apache/karaf/scr/command/support/IdComparator.class
+org/apache/karaf/scr/command/ScrCommandConstants.class
+org/apache/karaf/scr/command/completer/DetailsCompleter.class
+org/apache/karaf/scr/command/completer/ActivateCompleter.class
+org/apache/karaf/scr/command/ScrUtils.class
+org/apache/karaf/scr/command/action/ListAction.class
+org/apache/karaf/scr/command/action/DeactivateAction.class
+org/apache/karaf/scr/command/completer/DeactivateCompleter.class

@@ -1,0 +1,6 @@
+org/apache/karaf/deployer/features/FeatureTransformer.class
+org/apache/karaf/deployer/features/FeatureURLHandler$Connection.class
+org/apache/karaf/deployer/features/FeatureDeploymentListener$1.class
+org/apache/karaf/deployer/features/osgi/Activator.class
+org/apache/karaf/deployer/features/FeatureDeploymentListener.class
+org/apache/karaf/deployer/features/FeatureURLHandler.class

@@ -1,0 +1,12 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/internal/SystemServiceImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/FrameworkType.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/commands/Name.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/management/SystemMBean.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/internal/osgi/Activator.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/commands/Shutdown.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/commands/FrameworkOptions.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/commands/StartLevel.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/management/internal/SystemMBeanImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/SystemService.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/commands/SystemProperty.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/system/src/main/java/org/apache/karaf/system/commands/Version.java

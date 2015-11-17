@@ -1,0 +1,6 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/webconsole/http/src/main/java/org/apache/karaf/webconsole/http/HttpPlugin.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/webconsole/http/src/main/java/org/apache/karaf/webconsole/http/Activator.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/webconsole/http/src/main/java/org/apache/karaf/webconsole/http/WebEventHandler.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/webconsole/http/src/main/java/org/apache/karaf/webconsole/http/ServletDetails.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/webconsole/http/src/main/java/org/apache/karaf/webconsole/http/ServletEventHandler.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/webconsole/http/src/main/java/org/apache/karaf/webconsole/http/WebDetail.java

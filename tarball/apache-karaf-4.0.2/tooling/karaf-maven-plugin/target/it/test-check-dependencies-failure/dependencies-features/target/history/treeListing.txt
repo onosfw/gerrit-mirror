@@ -1,0 +1,7 @@
+local:test:dependency-module-a:xml:features:1.0-SNAPSHOT (compile)
+local:test:dependency-module-b:xml:features:1.0-SNAPSHOT (compile)
+local:test:dependency-module-c:xml:features:1.0-SNAPSHOT (compile)
+ from feature:test:dependency-module-a:jar:1.0-SNAPSHOT (compile)
+ from feature:test:dependency-module-b:jar:1.0-SNAPSHOT (compile)
+local:test:dependency-module-d:xml:features:1.0-SNAPSHOT (compile)
+ from feature:test:dependency-module-c:jar:1.0-SNAPSHOT (compile)

@@ -1,0 +1,4 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/services/staticcm/src/main/java/org/apache/karaf/services/staticcm/Configurations.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/services/staticcm/src/main/java/org/apache/karaf/services/staticcm/Activator.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/services/staticcm/src/main/java/org/apache/karaf/services/staticcm/StaticConfigurationImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/services/staticcm/src/main/java/org/apache/karaf/services/staticcm/StaticConfigAdminImpl.java

@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Karaf :: JAAS :: Blueprint :: Config
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Karaf :: JAAS :: Config (http://www.apache.org/karaf/jaas/org.apache.karaf.jaas.config/) org.apache.karaf.jaas:org.apache.karaf.jaas.config:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

@@ -1,0 +1,6 @@
+org/apache/karaf/webconsole/gogo/Activator.class
+org/apache/karaf/webconsole/gogo/Terminal.class
+org/apache/karaf/webconsole/gogo/GogoPlugin$SessionTerminal.class
+org/apache/karaf/webconsole/gogo/Terminal$State.class
+org/apache/karaf/webconsole/gogo/GogoPlugin.class
+org/apache/karaf/webconsole/gogo/WebTerminal.class

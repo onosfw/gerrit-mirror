@@ -1,0 +1,16 @@
+org/apache/karaf/jndi/KarafInitialContextFactory.class
+org/apache/karaf/jndi/JndiService.class
+org/apache/karaf/jndi/internal/JndiServiceImpl.class
+org/apache/karaf/jndi/command/UnbindCommand.class
+org/apache/karaf/jndi/command/ContextsCommand.class
+org/apache/karaf/jndi/command/NamesCommand.class
+org/apache/karaf/jndi/command/BindCommand.class
+org/apache/karaf/jndi/command/CreateCommand.class
+org/apache/karaf/jndi/internal/osgi/Activator.class
+org/apache/karaf/jndi/command/completers/ContextsCompleter.class
+org/apache/karaf/jndi/command/DeleteCommand.class
+org/apache/karaf/jndi/command/AliasCommand.class
+org/apache/karaf/jndi/internal/JndiMBeanImpl.class
+org/apache/karaf/jndi/command/completers/ServicesIdCompleter.class
+org/apache/karaf/jndi/command/completers/NamesCompleter.class
+org/apache/karaf/jndi/JndiMBean.class

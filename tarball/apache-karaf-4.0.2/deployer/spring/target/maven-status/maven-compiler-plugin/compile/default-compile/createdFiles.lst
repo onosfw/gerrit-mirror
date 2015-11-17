@@ -1,0 +1,5 @@
+org/apache/karaf/deployer/spring/SpringURLHandler.class
+org/apache/karaf/deployer/spring/SpringDeploymentListener.class
+org/apache/karaf/deployer/spring/osgi/Activator.class
+org/apache/karaf/deployer/spring/SpringTransformer.class
+org/apache/karaf/deployer/spring/SpringURLHandler$Connection.class

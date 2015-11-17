@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="aggregate-recursive-module-c">
+    <feature name="aggregate-recursive-module-c" description="aggregate-recursive-module-c" version="1.0.0.SNAPSHOT">
+        <details>Test Description</details>
+        <bundle>mvn:test/aggregate-recursive-module-b/1.0-SNAPSHOT</bundle>
+    </feature>
+</features>

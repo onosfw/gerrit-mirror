@@ -1,0 +1,4 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/deployer/features/src/main/java/org/apache/karaf/deployer/features/FeatureURLHandler.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/deployer/features/src/main/java/org/apache/karaf/deployer/features/osgi/Activator.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/deployer/features/src/main/java/org/apache/karaf/deployer/features/FeatureTransformer.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/deployer/features/src/main/java/org/apache/karaf/deployer/features/FeatureDeploymentListener.java

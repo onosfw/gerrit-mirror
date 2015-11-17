@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1447459908893
+Build-Jdk: 1.8.0_60
+Built-By: ash
+Bundle-ManifestVersion: 2
+Bundle-Name: recursive-module-a
+Bundle-SymbolicName: test.recursive-module-a
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: test.a;version="1.0.0.SNAPSHOT"
+Tool: Bnd-1.50.0

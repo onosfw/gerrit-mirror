@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Activator: org.apache.karaf.deployer.wrap.osgi.Activator
+Bundle-Description: This deployer transforms non OSGi jar files to a dep
+ loyable bundle.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Deployer :: Wrap Non OSGi Jar
+Bundle-SymbolicName: org.apache.karaf.deployer.wrap
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Import-Package: javax.xml.parsers,javax.xml.transform,org.apache.felix.f
+ ileinstall;version="[3.5,4)",org.osgi.framework;version="[1.8,2)",org.o
+ sgi.service.url;version="[1.0,2)",org.slf4j;version="[1.7,2)",org.w3c.d
+ om,org.xml.sax
+Require-Capability: osgi.service;effective:=active;filter:="(&(objectCla
+ ss=org.osgi.service.url.URLStreamHandlerService)(url.handler.protocol=w
+ rap))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

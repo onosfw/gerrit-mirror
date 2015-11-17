@@ -1,0 +1,61 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Karaf :: Assemblies :: Features :: Framework
+
+
+From: 'an unknown organization'
+  - org.eclipse.osgi_3.10.2.v20150203-1939.jar (http://www.eclipse.org/projects/project.php?id=birt) org.eclipse.birt.runtime:org.eclipse.osgi:jar:3.10.2.v20150203-1939
+    License: Eclipse Public License - v 1.0  (http://www.eclipse.org/org/documents/epl-v10.html)
+  - JLEdit :: Core (https://github.com/jledit/jledit/core) org.jledit:core:bundle:0.2.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'JLine' (http://jline.sourceforge.net)
+  - JLine (http://jline.sourceforge.net) jline:jline:jar:2.13:compile
+    License: The BSD License  (http://jline.sourceforge.net/license.html)
+
+From: 'OPS4J - Open Participation Software for Java' (http://www.ops4j.org/)
+  - OPS4J - Pax Logging API (http://www.ops4j.org/projects/pax/logging/pax-logging-api) org.ops4j.pax.logging:pax-logging-api:jar:1.8.4:compile
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OPS4J - Pax Logging Service (http://www.ops4j.org/projects/pax/logging/pax-logging-service) org.ops4j.pax.logging:pax-logging-service:jar:1.8.4:compile
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OPS4J Pax Url - aether: (http://team.ops4j.org/wiki/display/paxurl/pax-url-aether) org.ops4j.pax.url:pax-url-aether:bundle:2.4.3
+    License: ALv2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org/slf4j-api) org.slf4j:slf4j-api:jar:1.7.12:runtime
+    License: MIT style  (http://www.slf4j.org/license.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Felix Configuration Admin Service (http://felix.apache.org/org.apache.felix.configadmin/) org.apache.felix:org.apache.felix.configadmin:bundle:1.8.8
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Felix File Install (http://felix.apache.org/site/apache-felix-file-install.html) org.apache.felix:org.apache.felix.fileinstall:jar:3.5.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Felix Framework (http://felix.apache.org/org.apache.felix.framework/) org.apache.felix:org.apache.felix.framework:bundle:5.2.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Felix Utils (http://felix.apache.org/org.apache.felix.utils/) org.apache.felix:org.apache.felix.utils:jar:1.8.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Client (http://www.apache.org/karaf/org.apache.karaf.client/) org.apache.karaf:org.apache.karaf.client:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Exception (http://www.apache.org/karaf/org.apache.karaf.exception/) org.apache.karaf:org.apache.karaf.exception:jar:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Main (http://www.apache.org/karaf/org.apache.karaf.main/) org.apache.karaf:org.apache.karaf.main:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Util (http://www.apache.org/karaf/org.apache.karaf.util/) org.apache.karaf:org.apache.karaf.util:jar:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Diagnostic :: Boot (http://www.apache.org/karaf/diagnostic/org.apache.karaf.diagnostic.boot/) org.apache.karaf.diagnostic:org.apache.karaf.diagnostic.boot:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Assemblies :: Features :: Base (http://www.apache.org/karaf/assemblies/features/base/) org.apache.karaf.features:base:jar:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Features :: Core (http://www.apache.org/karaf/features/org.apache.karaf.features.core/) org.apache.karaf.features:org.apache.karaf.features.core:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: JAAS :: Boot (http://www.apache.org/karaf/jaas/org.apache.karaf.jaas.boot/) org.apache.karaf.jaas:org.apache.karaf.jaas.boot:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Mina SSHD :: Core (http://www.apache.org/sshd/sshd-core/) org.apache.sshd:sshd-core:jar:0.14.0
+    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

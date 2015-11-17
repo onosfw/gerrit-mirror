@@ -1,0 +1,12 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/KeystoreIsLocked.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/KeystoreManager.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/KeystoreInstance.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/impl/ResourceKeystoreInstance.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/impl/Activator.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/JaasRealm.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/impl/OsgiConfiguration.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/impl/Config.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/impl/OsgiKeystoreManager.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/impl/Module.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/KeyIsLocked.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/config/src/main/java/org/apache/karaf/jaas/config/impl/ProxyLoginModuleInitializer.java

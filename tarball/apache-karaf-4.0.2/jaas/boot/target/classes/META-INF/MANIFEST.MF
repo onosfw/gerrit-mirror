@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Description: Provides the JAAS classes loading at boot process.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: JAAS :: Boot
+Bundle-SymbolicName: org.apache.karaf.jaas.boot
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.jaas.boot;uses:="javax.security.auth,ja
+ vax.security.auth.callback,javax.security.auth.login,javax.security.aut
+ h.spi,org.osgi.framework";version="4.0.2",org.apache.karaf.jaas.boot.pr
+ incipal;uses:="javax.security.auth";version="4.0.2"
+Import-Package: javax.security.auth,javax.security.auth.callback,javax.s
+ ecurity.auth.login,javax.security.auth.spi,org.osgi.framework;version="
+ [1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

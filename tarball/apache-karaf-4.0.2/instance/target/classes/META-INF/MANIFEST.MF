@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Activator: org.apache.karaf.instance.core.internal.osgi.Activator
+Bundle-Description: Core implementation of the instance feature to manip
+ ulate Karaf child instances.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Instance :: Core
+Bundle-SymbolicName: org.apache.karaf.instance.core
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.instance.core;uses:="javax.management,j
+ avax.management.openmbean";version="4.0.2"
+Import-Package: javax.management,javax.management.openmbean,javax.xml.pa
+ rsers,javax.xml.transform,org.apache.karaf.features.command.completers;
+ version="[4.0,5)";resolution:=optional,org.apache.karaf.instance.core,o
+ rg.apache.karaf.profile;version="[4.0,5)";resolution:=optional,org.apac
+ he.karaf.profile.command.completers;version="[4.0,5)";resolution:=optio
+ nal,org.apache.karaf.shell.api.action;version="[4.0,5)";resolution:=opt
+ ional,org.apache.karaf.shell.api.action.lifecycle;version="[4.0,5)";res
+ olution:=optional,org.apache.karaf.shell.api.console;version="[4.0,5)";
+ resolution:=optional,org.apache.karaf.shell.support;version="[4.0,5)";r
+ esolution:=optional,org.apache.karaf.shell.support.completers;version="
+ [4.0,5)";resolution:=optional,org.apache.karaf.shell.support.table;vers
+ ion="[4.0,5)";resolution:=optional,org.fusesource.jansi;version="[1.11,
+ 2)";resolution:=optional,org.osgi.framework;version="[1.8,2)",org.slf4j
+ ;version="[1.7,2)",org.w3c.dom,org.xml.sax
+Karaf-Commands: org.apache.karaf.features.command,org.apache.karaf.featu
+ res.command.completers,org.apache.karaf.instance.command,org.apache.kar
+ af.instance.command.completers,org.apache.karaf.profile.command,org.apa
+ che.karaf.profile.command.completers
+Provide-Capability: osgi.service;effective:=active;objectClass="org.apac
+ he.karaf.instance.core.InstanceService"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

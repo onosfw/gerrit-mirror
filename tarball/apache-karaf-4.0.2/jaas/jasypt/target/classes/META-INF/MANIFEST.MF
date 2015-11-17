@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Activator: org.apache.karaf.jaas.jasypt.impl.Activator
+Bundle-Description: This bundle provide Jasypt service for the encryptio
+ n support in the JAAS security framework.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: JAAS :: Jasypt Encryption
+Bundle-SymbolicName: org.apache.karaf.jaas.jasypt
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Import-Package: org.apache.karaf.jaas.modules;version="[4.0,5)",org.jasy
+ pt.digest.config;version="[1.9,2)",org.jasypt.exceptions;version="[1.9,
+ 2)",org.jasypt.util.password;version="[1.9,2)",org.osgi.framework;versi
+ on="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

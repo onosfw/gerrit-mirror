@@ -1,0 +1,17 @@
+org/apache/karaf/packages/core/PackageVersion.class
+org/apache/karaf/packages/core/internal/PackagesMBeanImpl.class
+org/apache/karaf/packages/core/internal/filter/SimpleItem.class
+org/apache/karaf/packages/core/internal/PackageServiceImpl.class
+org/apache/karaf/packages/core/internal/filter/NotExpression.class
+org/apache/karaf/packages/core/internal/ImportDetails.class
+org/apache/karaf/packages/core/PackagesMBean.class
+org/apache/karaf/packages/core/PackageRequirement.class
+org/apache/karaf/packages/core/internal/filter/ExprTokenizer.class
+org/apache/karaf/packages/command/Imports.class
+org/apache/karaf/packages/core/internal/filter/SimpleItem$FilterType.class
+org/apache/karaf/packages/core/PackageService.class
+org/apache/karaf/packages/core/internal/osgi/Activator.class
+org/apache/karaf/packages/core/internal/filter/Expression.class
+org/apache/karaf/packages/core/internal/filter/FilterParser.class
+org/apache/karaf/packages/core/internal/filter/AndExpression.class
+org/apache/karaf/packages/command/Exports.class

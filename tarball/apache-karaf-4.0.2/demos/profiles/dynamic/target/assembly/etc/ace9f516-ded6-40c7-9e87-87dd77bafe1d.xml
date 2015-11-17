@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="ace9f516-ded6-40c7-9e87-87dd77bafe1d">
+    <repository>mvn:org.apache.karaf.features/standard/4.0.2/xml/features</repository>
+    <repository>mvn:org.apache.karaf.features/enterprise/4.0.2/xml/features</repository>
+    <repository>mvn:org.apache.karaf.features/spring/4.0.2/xml/features</repository>
+    <repository>mvn:org.apache.camel.karaf/apache-camel/2.15.2/xml/features</repository>
+    <repository>mvn:org.apache.cxf.karaf/apache-cxf/3.1.0/xml/features</repository>
+    <repository>mvn:org.apache.activemq/activemq-karaf/5.11.1/xml/features</repository>
+    <repository>mvn:org.apache.karaf.features/standard/4.0.2/xml/features</repository>
+    <repository>mvn:org.apache.karaf.features/spring/4.0.2/xml/features</repository>
+    <repository>mvn:org.apache.karaf.features/framework/4.0.2/xml/features</repository>
+    <feature name="2d88952f-4f80-4c13-bf8d-529a36dba70e" version="0.0.0">
+        <feature prerequisite="false" dependency="false">jaas</feature>
+        <feature prerequisite="false" dependency="false">shell</feature>
+        <feature prerequisite="false" dependency="false">ssh</feature>
+        <feature prerequisite="false" dependency="false">bundle</feature>
+        <feature prerequisite="false" dependency="false">config</feature>
+        <feature prerequisite="false" dependency="false">instance</feature>
+        <feature prerequisite="false" dependency="false">log</feature>
+        <feature prerequisite="false" dependency="false">package</feature>
+        <feature prerequisite="false" dependency="false">service</feature>
+        <feature prerequisite="false" dependency="false">system</feature>
+        <feature prerequisite="false" dependency="false">management</feature>
+        <feature prerequisite="true" dependency="false">aries-blueprint</feature>
+        <feature prerequisite="false" dependency="false">shell-compat</feature>
+        <feature prerequisite="false" dependency="false">camel-core</feature>
+        <feature prerequisite="false" dependency="false">camel-blueprint</feature>
+        <feature prerequisite="false" dependency="false">activemq-client</feature>
+        <feature prerequisite="false" dependency="false">activemq-camel</feature>
+        <feature prerequisite="false" dependency="false">activemq-broker-noweb</feature>
+        <feature prerequisite="true" dependency="false">deployer</feature>
+        <bundle>blueprint:file:etc/bank1.xml</bundle>
+        <bundle>blueprint:file:etc/bank2.xml</bundle>
+        <bundle>blueprint:file:etc/bank3.xml</bundle>
+        <bundle>blueprint:file:etc/loanBroker.xml</bundle>
+    </feature>
+</features>

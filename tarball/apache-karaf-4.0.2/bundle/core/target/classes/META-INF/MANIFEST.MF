@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Activator: org.apache.karaf.bundle.core.internal.osgi.Activator
+Bundle-Description: Bundle Services and API
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Bundle :: Core
+Bundle-SymbolicName: org.apache.karaf.bundle.core
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.bundle.core;uses:="javax.management,jav
+ ax.management.openmbean,org.osgi.framework,org.osgi.framework.wiring";v
+ ersion="4.0.2"
+Import-Package: javax.management,javax.management.openmbean,javax.securi
+ ty.auth,javax.xml.parsers,javax.xml.stream,javax.xml.transform,org.apac
+ he.karaf.jaas.boot.principal;version="[4.0,5)",org.apache.karaf.shell.a
+ pi.action;version="[4.0,5)";resolution:=optional,org.apache.karaf.shell
+ .api.action.lifecycle;version="[4.0,5)";resolution:=optional,org.apache
+ .karaf.shell.api.console;version="[4.0,5)";resolution:=optional,org.apa
+ che.karaf.shell.support;version="[4.0,5)";resolution:=optional,org.apac
+ he.karaf.shell.support.table;version="[4.0,5)";resolution:=optional,org
+ .fusesource.jansi;version="[1.11,2)";resolution:=optional,org.osgi.fram
+ ework;version="[1.8,2)",org.osgi.framework.startlevel;version="[1.0,2)"
+ ,org.osgi.framework.wiring;version="[1.2,2)",org.osgi.service.cm;versio
+ n="[1.5,2)",org.osgi.util.tracker;version="[1.5,2)",org.slf4j;version="
+ [1.7,2)",org.w3c.dom,org.xml.sax
+Karaf-Commands: org.apache.karaf.bundle.command
+Provide-Capability: osgi.service;effective:=active;objectClass="org.apac
+ he.karaf.bundle.core.BundleService"
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.osgi.service.cm.ConfigurationAdmin)",osgi.ee;filter:="(&(osgi.ee=J
+ avaSE)(version=1.7))"

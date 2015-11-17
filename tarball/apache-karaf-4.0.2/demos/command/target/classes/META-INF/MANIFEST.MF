@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Description: The Apache Software Foundation provides support for 
+ the Apache community of open-source software projects.    The Apache pr
+ ojects are characterized by a collaborative, consensus based developmen
+ t process, an open and    pragmatic software license, and a desire to c
+ reate high quality software that leads the way in its field.    We cons
+ ider ourselves not simply a group of projects sharing a server, but rat
+ her a community of developers    and users.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Demos :: Command :: Extend Console
+Bundle-SymbolicName: org.apache.karaf.demos.command
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.demos.command;uses:="org.apache.karaf.s
+ hell.api.action,org.apache.karaf.shell.api.action.lifecycle,org.apache.
+ karaf.shell.api.console";version="4.0.2"
+Import-Package: org.apache.karaf.shell.api.action;version="[4.0,5)",org.
+ apache.karaf.shell.api.action.lifecycle;version="[4.0,5)",org.apache.ka
+ raf.shell.api.console;version="[4.0,5)",org.apache.karaf.shell.support.
+ completers;version="[4.0,5)"
+Karaf-Commands: *
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

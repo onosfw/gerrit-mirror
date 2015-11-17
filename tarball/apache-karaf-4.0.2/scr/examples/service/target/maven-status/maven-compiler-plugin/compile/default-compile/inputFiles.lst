@@ -1,0 +1,3 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/scr/examples/service/src/main/java/org/apache/karaf/scr/examples/service/component/GreeterComponent.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/scr/examples/service/src/main/java/org/apache/karaf/scr/examples/service/GreeterService.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/scr/examples/service/src/main/java/org/apache/karaf/scr/examples/service/impl/GreeterServiceImpl.java

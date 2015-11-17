@@ -1,0 +1,16 @@
+org/apache/karaf/obr/core/internal/osgi/Activator.class
+org/apache/karaf/obr/core/internal/ObrMBeanImpl.class
+org/apache/karaf/obr/command/RemoveUrlCommand.class
+org/apache/karaf/obr/command/util/FileUtil.class
+org/apache/karaf/obr/core/ObrMBean.class
+org/apache/karaf/obr/command/ResolveCommand.class
+org/apache/karaf/obr/command/ListCommand.class
+org/apache/karaf/obr/command/StartCommand.class
+org/apache/karaf/obr/command/ObrCommandSupport.class
+org/apache/karaf/obr/command/RefreshUrlCommand.class
+org/apache/karaf/obr/command/FindCommand.class
+org/apache/karaf/obr/command/InfoCommand.class
+org/apache/karaf/obr/command/AddUrlCommand.class
+org/apache/karaf/obr/command/SourceCommand.class
+org/apache/karaf/obr/command/ListUrlCommand.class
+org/apache/karaf/obr/command/DeployCommand.class

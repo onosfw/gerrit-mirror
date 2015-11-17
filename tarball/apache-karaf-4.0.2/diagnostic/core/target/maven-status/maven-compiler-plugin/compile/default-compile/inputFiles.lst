@@ -1,0 +1,7 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/diagnostic/core/src/main/java/org/apache/karaf/diagnostic/management/DiagnosticDumpMBean.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/diagnostic/core/src/main/java/org/apache/karaf/diagnostic/common/TextDumpProvider.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/diagnostic/core/src/main/java/org/apache/karaf/diagnostic/common/LogDumpProvider.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/diagnostic/core/src/main/java/org/apache/karaf/diagnostic/management/internal/DiagnosticDumpMBeanImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/diagnostic/core/src/main/java/org/apache/karaf/diagnostic/internal/Activator.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/diagnostic/core/src/main/java/org/apache/karaf/diagnostic/command/DumpCommand.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/diagnostic/core/src/main/java/org/apache/karaf/diagnostic/common/FeaturesDumpProvider.java

@@ -1,0 +1,9 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/MBeanServerFactory.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/internal/JMXSecurityMBeanImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/internal/Activator.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/JaasAuthenticator.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/internal/MBeanInvocationHandler.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/ConnectorServerFactory.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/JMXSecurityMBean.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/KarafMBeanServerGuard.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/management/server/src/main/java/org/apache/karaf/management/RmiRegistryFactory.java

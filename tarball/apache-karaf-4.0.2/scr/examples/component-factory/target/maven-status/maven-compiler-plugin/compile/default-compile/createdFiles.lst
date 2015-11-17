@@ -1,0 +1,5 @@
+org/apache/karaf/scr/examples/component/factories/GreeterServiceComponentFactory.class
+org/apache/karaf/scr/examples/component/factories/impl/GreeterServiceComponentFactoryImpl$1.class
+org/apache/karaf/scr/examples/component/factories/impl/GreeterServiceComponentFactoryImpl.class
+org/apache/karaf/scr/examples/component/factories/component/GreeterServiceFactoryManager.class
+org/apache/karaf/scr/examples/component/factories/impl/GreeterServiceComponentFactoryImpl$Worker.class

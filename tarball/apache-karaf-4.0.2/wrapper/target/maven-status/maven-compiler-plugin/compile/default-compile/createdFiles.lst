@@ -1,0 +1,7 @@
+org/apache/karaf/wrapper/management/WrapperMBean.class
+org/apache/karaf/wrapper/commands/Install.class
+org/apache/karaf/wrapper/internal/service/Main.class
+org/apache/karaf/wrapper/management/internal/WrapperMBeanImpl.class
+org/apache/karaf/wrapper/internal/WrapperServiceImpl.class
+org/apache/karaf/wrapper/internal/osgi/Activator.class
+org/apache/karaf/wrapper/WrapperService.class

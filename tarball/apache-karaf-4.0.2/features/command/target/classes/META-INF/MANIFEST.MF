@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Description: This bundle provides the Karaf shell commands to man
+ ipulate features.
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Features :: Command
+Bundle-SymbolicName: org.apache.karaf.features.command
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.features.command;uses:="org.apache.kara
+ f.features,org.apache.karaf.shell.api.action,org.apache.karaf.shell.api
+ .action.lifecycle,org.osgi.framework";version="4.0.2",org.apache.karaf.
+ features.command.completers;uses:="org.apache.karaf.features,org.apache
+ .karaf.shell.api.action.lifecycle,org.apache.karaf.shell.api.console";v
+ ersion="4.0.2"
+Import-Package: org.apache.karaf.features;version="[4.0,5)",org.apache.k
+ araf.features.command.completers,org.apache.karaf.shell.api.action;vers
+ ion="[4.0,5)",org.apache.karaf.shell.api.action.lifecycle;version="[4.0
+ ,5)",org.apache.karaf.shell.api.console;version="[4.0,5)",org.apache.ka
+ raf.shell.support;version="[4.0,5)",org.apache.karaf.shell.support.comp
+ leters;version="[4.0,5)",org.apache.karaf.shell.support.table;version="
+ [4.0,5)",org.eclipse.equinox.region;version="[1.1,2)",org.ops4j.pax.url
+ .mvn;version="[2.4,3)",org.osgi.framework;version="[1.8,2)",org.slf4j;v
+ ersion="[1.7,2)"
+Karaf-Commands: org.apache.karaf.features.command,org.apache.karaf.featu
+ res.command.completers
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

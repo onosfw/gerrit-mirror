@@ -1,0 +1,14 @@
+org/apache/karaf/service/guard/impl/GuardingFindHook.class
+org/apache/karaf/service/guard/impl/Activator.class
+org/apache/karaf/service/guard/impl/GuardProxyCatalog$1.class
+org/apache/karaf/service/guard/impl/GuardProxyCatalog.class
+org/apache/karaf/service/guard/tools/ACLConfigurationParser.class
+org/apache/karaf/service/guard/tools/ACLConfigurationParser$Specificity.class
+org/apache/karaf/service/guard/tools/ACLConfigurationParser$1.class
+org/apache/karaf/service/guard/impl/GuardProxyCatalog$ServiceProxyCreatorCustomizer.class
+org/apache/karaf/service/guard/impl/GuardProxyCatalog$ProxyServiceFactory.class
+org/apache/karaf/service/guard/impl/GuardProxyCatalog$ServiceRegistrationHolder.class
+org/apache/karaf/service/guard/impl/GuardingEventHook.class
+org/apache/karaf/service/guard/impl/GuardProxyCatalog$ProxyInvocationListener.class
+org/apache/karaf/service/guard/impl/GuardProxyCatalog$ServiceProxyCreatorCustomizer$1.class
+org/apache/karaf/service/guard/impl/GuardProxyCatalog$CreateProxyRunnable.class

@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Karaf :: Bundle :: BlueprintStateService
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org)
+  - Apache Aries Blueprint API (http://aries.apache.org/org.apache.aries.blueprint.api) org.apache.aries.blueprint:org.apache.aries.blueprint.api:bundle:1.0.1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

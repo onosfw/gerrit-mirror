@@ -1,0 +1,29 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Karaf :: Demos :: Demo Dump provider
+
+
+From: 'OPS4J - Open Participation Software for Java' (http://www.ops4j.org/)
+  - OPS4J Pax Url - aether: (http://team.ops4j.org/wiki/display/paxurl/pax-url-aether) org.ops4j.pax.url:pax-url-aether:bundle:2.4.3
+    License: ALv2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - JCL 1.1.1 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.7.12
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.12
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Karaf :: Diagnostic :: Boot (http://www.apache.org/karaf/diagnostic/org.apache.karaf.diagnostic.boot/) org.apache.karaf.diagnostic:org.apache.karaf.diagnostic.boot:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Diagnostic :: Core (http://www.apache.org/karaf/diagnostic/org.apache.karaf.diagnostic.core/) org.apache.karaf.diagnostic:org.apache.karaf.diagnostic.core:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Karaf :: Features :: Core (http://www.apache.org/karaf/features/org.apache.karaf.features.core/) org.apache.karaf.features:org.apache.karaf.features.core:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

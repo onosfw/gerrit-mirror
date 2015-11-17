@@ -1,0 +1,7 @@
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/wrapper/src/main/java/org/apache/karaf/wrapper/internal/WrapperServiceImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/wrapper/src/main/java/org/apache/karaf/wrapper/management/internal/WrapperMBeanImpl.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/wrapper/src/main/java/org/apache/karaf/wrapper/management/WrapperMBean.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/wrapper/src/main/java/org/apache/karaf/wrapper/WrapperService.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/wrapper/src/main/java/org/apache/karaf/wrapper/commands/Install.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/wrapper/src/main/java/org/apache/karaf/wrapper/internal/service/Main.java
+/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/wrapper/src/main/java/org/apache/karaf/wrapper/internal/osgi/Activator.java

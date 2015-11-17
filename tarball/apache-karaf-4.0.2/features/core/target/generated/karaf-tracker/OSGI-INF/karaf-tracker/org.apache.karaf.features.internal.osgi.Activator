@@ -1,0 +1,4 @@
+#Fri Nov 13 16:08:49 PST 2015
+org.osgi.service.cm.ConfigurationAdmin=
+org.osgi.service.url.URLStreamHandlerService=(url.handler.protocol\=mvn)
+org.osgi.service.resolver.Resolver=

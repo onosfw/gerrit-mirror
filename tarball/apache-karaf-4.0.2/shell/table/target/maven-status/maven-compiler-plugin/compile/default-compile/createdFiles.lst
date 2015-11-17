@@ -1,0 +1,9 @@
+org/apache/karaf/shell/table/ShellTable.class
+org/apache/karaf/shell/table/StringUtil.class
+org/apache/karaf/shell/table/Col.class
+org/apache/karaf/shell/table/HAlign$3.class
+org/apache/karaf/shell/table/HAlign.class
+org/apache/karaf/shell/table/HAlign$1.class
+org/apache/karaf/shell/table/Row.class
+org/apache/karaf/shell/table/AnsiColumn.class
+org/apache/karaf/shell/table/HAlign$2.class

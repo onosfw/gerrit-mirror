@@ -1,0 +1,16 @@
+org/apache/karaf/scheduler/JobContext.class
+org/apache/karaf/scheduler/core/QuartzScheduler.class
+org/apache/karaf/scheduler/core/WhiteboardHandler$1.class
+org/apache/karaf/scheduler/core/Activator.class
+org/apache/karaf/scheduler/Scheduler.class
+org/apache/karaf/scheduler/core/InternalScheduleOptions.class
+org/apache/karaf/scheduler/core/WhiteboardHandler.class
+org/apache/karaf/scheduler/Job.class
+org/apache/karaf/scheduler/core/QuartzJobExecutor$JobContextImpl.class
+org/apache/karaf/scheduler/core/NonParallelQuartzJobExecutor.class
+org/apache/karaf/scheduler/ScheduleOptions.class
+org/apache/karaf/scheduler/core/QuartzJobExecutor.class
+org/apache/karaf/scheduler/command/List.class
+org/apache/karaf/scheduler/command/Schedule.class
+org/apache/karaf/scheduler/command/Unschedule.class
+org/apache/karaf/scheduler/command/support/ScriptJob.class

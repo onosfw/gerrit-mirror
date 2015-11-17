@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache Karaf :: Deployer :: Karaf Archive (.kar)
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Karaf :: KAR :: Core (http://www.apache.org/karaf/org.apache.karaf.kar.core/) org.apache.karaf.kar:org.apache.karaf.kar.core:bundle:4.0.2
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

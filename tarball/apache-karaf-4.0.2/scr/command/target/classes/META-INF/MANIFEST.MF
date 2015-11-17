@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_60
+Bundle-Description: Provides the OSGi SCR commands
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: SCR :: Shell Commands
+Bundle-SymbolicName: org.apache.karaf.scr.command
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 4.0.2
+Export-Package: org.apache.karaf.scr.command.action;uses:="org.apache.fe
+ lix.scr,org.apache.karaf.shell.api.action,org.apache.karaf.shell.api.ac
+ tion.lifecycle,org.apache.karaf.shell.api.console,org.osgi.framework,or
+ g.slf4j";version="4.0.2",org.apache.karaf.scr.command.support;uses:="or
+ g.apache.felix.scr";version="4.0.2",org.apache.karaf.scr.command;versio
+ n="4.0.2",org.apache.karaf.scr.command.completer;uses:="org.apache.feli
+ x.scr,org.apache.karaf.shell.api.action.lifecycle,org.apache.karaf.shel
+ l.api.console,org.slf4j";version="4.0.2"
+Import-Package: org.apache.felix.scr;version="[1.8,2)",org.apache.karaf.
+ scr.command,org.apache.karaf.scr.command.action,org.apache.karaf.scr.co
+ mmand.completer,org.apache.karaf.scr.command.support,org.apache.karaf.s
+ hell.api.action;version="[4.0,5)",org.apache.karaf.shell.api.action.lif
+ ecycle;version="[4.0,5)",org.apache.karaf.shell.api.console;version="[4
+ .0,5)",org.apache.karaf.shell.support.ansi;version="[4.0,5)",org.apache
+ .karaf.shell.support.completers;version="[4.0,5)",org.apache.karaf.shel
+ l.support.table;version="[4.0,5)",org.osgi.framework;version="[1.8,2)",
+ org.slf4j;version="[1.7,2)"
+Karaf-Commands: org.apache.karaf.scr.command.action,org.apache.karaf.scr
+ .command.completer
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"

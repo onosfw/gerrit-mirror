@@ -1,0 +1,9 @@
+org/apache/karaf/http/core/internal/osgi/Activator.class
+org/apache/karaf/http/core/internal/osgi/Activator$1.class
+org/apache/karaf/http/core/internal/ServletServiceImpl.class
+org/apache/karaf/http/command/ServletListCommand.class
+org/apache/karaf/http/core/internal/HttpMBeanImpl.class
+org/apache/karaf/http/core/internal/ServletEventHandler.class
+org/apache/karaf/http/core/HttpMBean.class
+org/apache/karaf/http/core/ServletInfo.class
+org/apache/karaf/http/core/ServletService.class

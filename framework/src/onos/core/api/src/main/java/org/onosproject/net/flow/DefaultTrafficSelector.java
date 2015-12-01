@@ -23,6 +23,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
 
+import org.onlab.packet.Ip4Address;
 import org.onlab.packet.Ip6Address;
 import org.onlab.packet.IpPrefix;
 import org.onlab.packet.MacAddress;
@@ -339,7 +340,7 @@ public final class DefaultTrafficSelector implements TrafficSelector {
 
         @Override
         public Builder matchMplsBos(boolean mplsBos) {
-            return add(Criteria.matchMplsLabel(mplsBos));
+            return add(Criteria.matchMplsBos(mplsBos));
         }
 
         @Override
@@ -350,6 +351,31 @@ public final class DefaultTrafficSelector implements TrafficSelector {
         @Override
         public Builder matchIPv6ExthdrFlags(short exthdrFlags) {
             return add(Criteria.matchIPv6ExthdrFlags(exthdrFlags));
+        }
+
+        @Override
+        public Builder matchArpTpa(Ip4Address addr) {
+            return add(Criteria.matchArpTpa(addr));
+        }
+
+        @Override
+        public Builder matchArpSpa(Ip4Address addr) {
+            return add(Criteria.matchArpSpa(addr));
+        }
+
+        @Override
+        public Builder matchArpTha(MacAddress addr) {
+            return add(Criteria.matchArpTha(addr));
+        }
+
+        @Override
+        public Builder matchArpSha(MacAddress addr) {
+            return add(Criteria.matchArpSha(addr));
+        }
+
+        @Override
+        public Builder matchArpOp(int arpOp) {
+            return add(Criteria.matchArpOp(arpOp));
         }
 
         @Override

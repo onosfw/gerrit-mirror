@@ -18,18 +18,16 @@ package org.onosproject.bgpio.types;
 import java.util.Objects;
 
 import org.jboss.netty.buffer.ChannelBuffer;
-import org.onosproject.bgpio.exceptions.BGPParseException;
+import org.onosproject.bgpio.exceptions.BgpParseException;
+import org.onosproject.bgpio.util.Constants;
 import org.onosproject.bgpio.util.Validation;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import com.google.common.base.MoreObjects;
 
 /**
  * Provides Implementation of mandatory BGP Origin path attribute.
  */
-public class Origin implements BGPValueType {
-    private static final Logger log = LoggerFactory.getLogger(Origin.class);
+public class Origin implements BgpValueType {
 
     /**
      * Enum to provide ORIGIN types.
@@ -58,8 +56,6 @@ public class Origin implements BGPValueType {
 
     public static final byte ORIGIN_TYPE = 1;
     public static final byte ORIGIN_VALUE_LEN = 1;
-    public static final int TYPE_AND_LEN_AS_SHORT = 4;
-    public static final int TYPE_AND_LEN_AS_BYTE = 3;
 
     private boolean isOrigin = false;
     private byte origin;
@@ -103,28 +99,28 @@ public class Origin implements BGPValueType {
      *
      * @param cb ChannelBuffer
      * @return object of Origin
-     * @throws BGPParseException while parsing Origin path attribute
+     * @throws BgpParseException while parsing Origin path attribute
      */
-    public static Origin read(ChannelBuffer cb) throws BGPParseException {
+    public static Origin read(ChannelBuffer cb) throws BgpParseException {
         ChannelBuffer tempCb = cb.copy();
         Validation parseFlags = Validation.parseAttributeHeader(cb);
 
-        int len = parseFlags.isShort() ? parseFlags.getLength() + TYPE_AND_LEN_AS_SHORT : parseFlags
-                .getLength() + TYPE_AND_LEN_AS_BYTE;
+        int len = parseFlags.isShort() ? parseFlags.getLength() + Constants.TYPE_AND_LEN_AS_SHORT : parseFlags
+                .getLength() + Constants.TYPE_AND_LEN_AS_BYTE;
         ChannelBuffer data = tempCb.readBytes(len);
         if ((parseFlags.getLength() > ORIGIN_VALUE_LEN) || (cb.readableBytes() < parseFlags.getLength())) {
-            Validation.validateLen(BGPErrorType.UPDATE_MESSAGE_ERROR, BGPErrorType.ATTRIBUTE_LENGTH_ERROR,
+            Validation.validateLen(BgpErrorType.UPDATE_MESSAGE_ERROR, BgpErrorType.ATTRIBUTE_LENGTH_ERROR,
                     parseFlags.getLength());
         }
         if (parseFlags.getFirstBit() && !parseFlags.getSecondBit() && parseFlags.getThirdBit()) {
-            throw new BGPParseException(BGPErrorType.UPDATE_MESSAGE_ERROR, BGPErrorType.ATTRIBUTE_FLAGS_ERROR, data);
+            throw new BgpParseException(BgpErrorType.UPDATE_MESSAGE_ERROR, BgpErrorType.ATTRIBUTE_FLAGS_ERROR, data);
         }
 
         byte originValue;
         originValue = cb.readByte();
-        if ((originValue != ORIGINTYPE.INCOMPLETE.value) || (originValue != ORIGINTYPE.IGP.value) ||
+        if ((originValue != ORIGINTYPE.INCOMPLETE.value) && (originValue != ORIGINTYPE.IGP.value) &&
               (originValue != ORIGINTYPE.EGP.value)) {
-            throw new BGPParseException(BGPErrorType.UPDATE_MESSAGE_ERROR, BGPErrorType.INVALID_ORIGIN_ATTRIBUTE, data);
+            throw new BgpParseException(BgpErrorType.UPDATE_MESSAGE_ERROR, BgpErrorType.INVALID_ORIGIN_ATTRIBUTE, data);
         }
         return new Origin(originValue);
     }
@@ -162,5 +158,11 @@ public class Origin implements BGPValueType {
         return MoreObjects.toStringHelper(getClass())
                 .add("origin", origin)
                 .toString();
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        // TODO Auto-generated method stub
+        return 0;
     }
 }

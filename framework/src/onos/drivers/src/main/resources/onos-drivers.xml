@@ -32,10 +32,18 @@
                    impl="org.onosproject.driver.handshaker.NiciraSwitchHandshaker"/>
         <behaviour api="org.onosproject.net.behaviour.ControllerConfig"
                    impl="org.onosproject.driver.ovsdb.OvsdbControllerConfig"/>
-        <behaviour api="org.onosproject.openflow.controller.ExtensionInterpreter"
-                   impl="org.onosproject.driver.extensions.NiciraExtensionInterpreter" />
-        <behaviour api="org.onosproject.net.behaviour.ExtensionResolver"
-                   impl="org.onosproject.driver.extensions.NiciraExtensionInterpreter" />
+        <behaviour api="org.onosproject.openflow.controller.ExtensionTreatmentInterpreter"
+                   impl="org.onosproject.driver.extensions.NiciraExtensionTreatmentInterpreter" />
+        <behaviour api="org.onosproject.net.behaviour.ExtensionTreatmentResolver"
+                   impl="org.onosproject.driver.extensions.NiciraExtensionTreatmentInterpreter" />
+    </driver>
+    <!--This driver is for simulated NETCONF devices through of-config tool on top og OVSDB-->
+    <driver name="ovs-netconf" extends="default"
+            manufacturer="" hwVersion="" swVersion="">
+        <behaviour api="org.onosproject.openflow.controller.driver.OpenFlowSwitchDriver"
+                   impl="org.onosproject.driver.handshaker.NiciraSwitchHandshaker"/>
+        <behaviour api="org.onosproject.net.behaviour.ControllerConfig"
+                   impl="org.onosproject.driver.netconf.NetconfControllerConfig"/>
     </driver>
     <driver name="ovs-corsa" extends="ovs"
             manufacturer="Corsa" hwVersion="emulation" swVersion="0.0.0">
@@ -78,12 +86,12 @@
     <driver name="pmc-olt" extends="default"
             manufacturer="Big Switch Networks" hwVersion="ivs 0.5" swVersion="ivs 0.5">
         <behaviour api="org.onosproject.net.behaviour.Pipeliner"
-                   impl="org.onosproject.driver.pipeline.OLTPipeline"/>
+                   impl="org.onosproject.driver.pipeline.OltPipeline"/>
     </driver>
     <driver name="g.fast" extends="default"
             manufacturer="TEST1" hwVersion="TEST2" swVersion="TEST3">
         <behaviour api="org.onosproject.net.behaviour.Pipeliner"
-                   impl="org.onosproject.driver.pipeline.OLTPipeline"/>
+                   impl="org.onosproject.driver.pipeline.OltPipeline"/>
     </driver>
     <!--  The SoftRouter driver is meant to be used by any software/NPU based
        ~  switch that wishes to implement a simple 2-table router. To use this
@@ -124,15 +132,18 @@
         <behaviour api="org.onosproject.openflow.controller.driver.OpenFlowSwitchDriver"
                    impl="org.onosproject.driver.handshaker.CalientFiberSwitchHandshaker"/>
     </driver>
-    <driver name="onosfw" extends="default"
+    <driver name="onosfw" extends="ovs"
             manufacturer="" hwVersion="" swVersion="">
         <behaviour api="org.onosproject.net.behaviour.Pipeliner"
                    impl="org.onosproject.driver.pipeline.OpenVSwitchPipeline"/>
     </driver>
     <driver name="eci" extends="default"
-            manufacturer="ECI Telecom" hwVersion="optical" swVersion="V_1_0">
+            manufacturer="ECI Telecom" hwVersion="Optical.*" swVersion="V_1_0">
         <behaviour api="org.onosproject.openflow.controller.driver.OpenFlowSwitchDriver"
                    impl="org.onosproject.driver.handshaker.OFOpticalSwitch13"/>
+    </driver>
+    <driver name="aos" extends="ofdpa"
+            manufacturer="Accton" hwVersion=".*" swVersion="1.*">
     </driver>
 </drivers>
 

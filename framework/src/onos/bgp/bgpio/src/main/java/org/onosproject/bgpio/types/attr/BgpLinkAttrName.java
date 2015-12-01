@@ -16,12 +16,11 @@
 package org.onosproject.bgpio.types.attr;
 
 import java.util.Arrays;
-import java.util.Objects;
 
 import org.jboss.netty.buffer.ChannelBuffer;
-import org.onosproject.bgpio.exceptions.BGPParseException;
-import org.onosproject.bgpio.types.BGPErrorType;
-import org.onosproject.bgpio.types.BGPValueType;
+import org.onosproject.bgpio.exceptions.BgpParseException;
+import org.onosproject.bgpio.types.BgpErrorType;
+import org.onosproject.bgpio.types.BgpValueType;
 import org.onosproject.bgpio.util.Validation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,7 +30,7 @@ import com.google.common.base.MoreObjects;
 /**
  * Implements BGP link name attribute.
  */
-public class BgpLinkAttrName implements BGPValueType {
+public class BgpLinkAttrName implements BgpValueType {
 
     protected static final Logger log = LoggerFactory
             .getLogger(BgpLinkAttrName.class);
@@ -46,8 +45,18 @@ public class BgpLinkAttrName implements BGPValueType {
      *
      * @param linkName link name
      */
-    BgpLinkAttrName(byte[] linkName) {
+    public BgpLinkAttrName(byte[] linkName) {
         this.linkName = Arrays.copyOf(linkName, linkName.length);
+    }
+
+    /**
+     * Returns object of this class with specified values.
+     *
+     * @param linkName Prefix Metric
+     * @return object of BgpLinkAttrName
+     */
+    public static BgpLinkAttrName of(byte[] linkName) {
+        return new BgpLinkAttrName(linkName);
     }
 
     /**
@@ -55,22 +64,22 @@ public class BgpLinkAttrName implements BGPValueType {
      *
      * @param cb Channel buffer
      * @return object of type BgpLinkAttrName
-     * @throws BGPParseException while parsing BgpLinkAttrName
+     * @throws BgpParseException while parsing BgpLinkAttrName
      */
     public static BgpLinkAttrName read(ChannelBuffer cb)
-            throws BGPParseException {
+            throws BgpParseException {
         byte[] linkName;
         short lsAttrLength = cb.readShort();
 
         if (cb.readableBytes() < lsAttrLength) {
-            Validation.validateLen(BGPErrorType.UPDATE_MESSAGE_ERROR,
-                                   BGPErrorType.ATTRIBUTE_LENGTH_ERROR,
+            Validation.validateLen(BgpErrorType.UPDATE_MESSAGE_ERROR,
+                                   BgpErrorType.ATTRIBUTE_LENGTH_ERROR,
                                    lsAttrLength);
         }
 
         linkName = new byte[lsAttrLength];
         cb.readBytes(linkName);
-        return new BgpLinkAttrName(linkName);
+        return BgpLinkAttrName.of(linkName);
     }
 
     /**
@@ -78,7 +87,7 @@ public class BgpLinkAttrName implements BGPValueType {
      *
      * @return link name
      */
-    byte[] getAttrLinkName() {
+    public byte[] attrLinkName() {
         return linkName;
     }
 
@@ -89,7 +98,7 @@ public class BgpLinkAttrName implements BGPValueType {
 
     @Override
     public int hashCode() {
-        return Objects.hash(linkName);
+        return Arrays.hashCode(linkName);
     }
 
     @Override
@@ -100,7 +109,7 @@ public class BgpLinkAttrName implements BGPValueType {
 
         if (obj instanceof BgpLinkAttrName) {
             BgpLinkAttrName other = (BgpLinkAttrName) obj;
-            return Objects.equals(linkName, other.linkName);
+            return Arrays.equals(linkName, other.linkName);
         }
         return false;
     }
@@ -115,5 +124,11 @@ public class BgpLinkAttrName implements BGPValueType {
     public String toString() {
         return MoreObjects.toStringHelper(getClass()).omitNullValues()
                 .add("linkName", linkName).toString();
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        // TODO Auto-generated method stub
+        return 0;
     }
 }

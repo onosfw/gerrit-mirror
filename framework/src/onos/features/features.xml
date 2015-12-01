@@ -16,8 +16,7 @@
   -->
 <features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0"
           name="onos-@FEATURE-VERSION">
-    <repository>mvn:org.onosproject/onos-features/@ONOS-VERSION/xml/features
-    </repository>
+    <repository>mvn:org.apache.karaf.features/standard/3.0.3/xml/features</repository>
 
     <feature name="onos-thirdparty-base" version="@FEATURE-VERSION"
              description="ONOS 3rd party dependencies">
@@ -106,6 +105,7 @@
         <feature>onos-core</feature>
         <bundle>mvn:org.onosproject/onos-incubator-net/@ONOS-VERSION</bundle>
         <bundle>mvn:org.onosproject/onos-incubator-store/@ONOS-VERSION</bundle>
+        <bundle>mvn:org.onosproject/onos-incubator-rpc/@ONOS-VERSION</bundle>
     </feature>
 
     <feature name="onos-rest" version="@FEATURE-VERSION"

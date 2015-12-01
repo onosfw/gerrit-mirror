@@ -15,20 +15,20 @@
  */
 package org.onosproject.bgpio.types;
 
+import java.nio.ByteBuffer;
+import java.util.Arrays;
 import java.util.Objects;
 
 import org.jboss.netty.buffer.ChannelBuffer;
 import org.onlab.packet.IpPrefix;
 import org.onosproject.bgpio.util.Validation;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import com.google.common.base.MoreObjects;
 
 /**
  * Provides IP Reachability InformationTlv Tlv which contains IP Prefix.
  */
-public class IPReachabilityInformationTlv implements BGPValueType {
+public class IPReachabilityInformationTlv implements BgpValueType {
 
     /*
      * Reference :draft-ietf-idr-ls-distribution-11
@@ -44,10 +44,9 @@ public class IPReachabilityInformationTlv implements BGPValueType {
              Figure 14: IP Reachability Information TLV Format
     */
 
-    protected static final Logger log = LoggerFactory.getLogger(IPReachabilityInformationTlv.class);
-
     public static final short TYPE = 265;
     public static final int ONE_BYTE_LEN = 8;
+
     private byte prefixLen;
     private byte[] ipPrefix;
     public short length;
@@ -86,7 +85,7 @@ public class IPReachabilityInformationTlv implements BGPValueType {
 
     @Override
     public int hashCode() {
-        return Objects.hash(ipPrefix, prefixLen);
+        return Objects.hash(Arrays.hashCode(ipPrefix), prefixLen);
     }
 
     @Override
@@ -97,7 +96,7 @@ public class IPReachabilityInformationTlv implements BGPValueType {
 
         if (obj instanceof IPReachabilityInformationTlv) {
             IPReachabilityInformationTlv other = (IPReachabilityInformationTlv) obj;
-            return Objects.equals(prefixLen, other.prefixLen) && Objects.equals(ipPrefix, other.ipPrefix);
+            return Objects.equals(prefixLen, other.prefixLen) && Arrays.equals(ipPrefix, other.ipPrefix);
         }
         return false;
     }
@@ -142,6 +141,16 @@ public class IPReachabilityInformationTlv implements BGPValueType {
     @Override
     public short getType() {
         return TYPE;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (this.equals(o)) {
+            return 0;
+        }
+        ByteBuffer value1 = ByteBuffer.wrap(this.ipPrefix);
+        ByteBuffer value2 = ByteBuffer.wrap(((IPReachabilityInformationTlv) o).ipPrefix);
+        return value1.compareTo(value2);
     }
 
     @Override

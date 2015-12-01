@@ -36,6 +36,7 @@ import org.onosproject.net.Device;
 import org.onosproject.net.DeviceId;
 import org.onosproject.net.Link;
 import org.onosproject.net.device.DeviceService;
+import org.onosproject.net.device.PortStatistics;
 import org.onosproject.net.flow.FlowRuleService;
 import org.onosproject.net.flow.TableStatisticsEntry;
 import org.onosproject.net.link.LinkService;
@@ -59,7 +60,7 @@ public class StatisticsWebResource  extends AbstractWebResource {
 
     /**
      * Get load statistics for all links or for a specific link.
-     *
+     * @rsModel StatisticsFlowsLink
      * @param deviceId (optional) device ID for a specific link
      * @param port (optional) port number for a specified link
      * @return JSON encoded array lof Load objects
@@ -101,7 +102,7 @@ public class StatisticsWebResource  extends AbstractWebResource {
 
     /**
      * Get table statistics for all tables of all devices.
-     *
+     * @rsModel StatisticsFlowsTables
      * @return JSON encoded array of table statistics
      */
     @GET
@@ -111,11 +112,11 @@ public class StatisticsWebResource  extends AbstractWebResource {
         final FlowRuleService service = get(FlowRuleService.class);
         final Iterable<Device> devices = get(DeviceService.class).getDevices();
         final ObjectNode root = mapper().createObjectNode();
-        final ArrayNode rootArrayNode = root.putArray("device-table-statistics");
+        final ArrayNode rootArrayNode = root.putArray("statistics");
         for (final Device device : devices) {
             final ObjectNode deviceStatsNode = mapper().createObjectNode();
             deviceStatsNode.put("device", device.id().toString());
-            final ArrayNode statisticsNode = deviceStatsNode.putArray("table-statistics");
+            final ArrayNode statisticsNode = deviceStatsNode.putArray("table");
             final Iterable<TableStatisticsEntry> tableStatsEntries = service.getFlowTableStatistics(device.id());
             if (tableStatsEntries != null) {
                 for (final TableStatisticsEntry entry : tableStatsEntries) {
@@ -130,7 +131,7 @@ public class StatisticsWebResource  extends AbstractWebResource {
 
     /**
      * Get table statistics for all tables of a specified device.
-     *
+     * @rsModel StatisticsFlowsTables
      * @param deviceId device ID
      * @return JSON encoded array of table statistics
      */
@@ -142,15 +143,73 @@ public class StatisticsWebResource  extends AbstractWebResource {
         final Iterable<TableStatisticsEntry> tableStatisticsEntries =
                 service.getFlowTableStatistics(DeviceId.deviceId(deviceId));
         final ObjectNode root = mapper().createObjectNode();
-        final ArrayNode rootArrayNode = root.putArray("table-statistics");
+        final ArrayNode rootArrayNode = root.putArray("statistics");
 
         final ObjectNode deviceStatsNode = mapper().createObjectNode();
         deviceStatsNode.put("device", deviceId);
-        final ArrayNode statisticsNode = deviceStatsNode.putArray("table-statistics");
+        final ArrayNode statisticsNode = deviceStatsNode.putArray("table");
         for (final TableStatisticsEntry entry : tableStatisticsEntries) {
             statisticsNode.add(codec(TableStatisticsEntry.class).encode(entry, this));
         }
         rootArrayNode.add(deviceStatsNode);
         return ok(root).build();
     }
+
+    /**
+     * Get port statistics of all devices.
+     * @rsModel StatisticsPorts
+     * @return JSON encoded array of port statistics
+     */
+    @GET
+    @Path("ports")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getPortStatistics() {
+        final DeviceService service = get(DeviceService.class);
+        final Iterable<Device> devices = service.getDevices();
+        final ObjectNode root = mapper().createObjectNode();
+        final ArrayNode rootArrayNode = root.putArray("statistics");
+        for (final Device device : devices) {
+            final ObjectNode deviceStatsNode = mapper().createObjectNode();
+            deviceStatsNode.put("device", device.id().toString());
+            final ArrayNode statisticsNode = deviceStatsNode.putArray("ports");
+            final Iterable<PortStatistics> portStatsEntries = service.getPortStatistics(device.id());
+            if (portStatsEntries != null) {
+                for (final PortStatistics entry : portStatsEntries) {
+                    statisticsNode.add(codec(PortStatistics.class).encode(entry, this));
+                }
+            }
+            rootArrayNode.add(deviceStatsNode);
+        }
+
+        return ok(root).build();
+    }
+
+    /**
+     * Get port statistics of a specified devices.
+     * @rsModel StatisticsPorts
+     * @param deviceId device ID
+     * @return JSON encoded array of port statistics
+     */
+    @GET
+    @Path("ports/{deviceId}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getPortStatisticsByDeviceId(@PathParam("deviceId") String deviceId) {
+        final DeviceService service = get(DeviceService.class);
+        final Iterable<PortStatistics> portStatsEntries =
+                service.getPortStatistics(DeviceId.deviceId(deviceId));
+        final ObjectNode root = mapper().createObjectNode();
+        final ArrayNode rootArrayNode = root.putArray("statistics");
+        final ObjectNode deviceStatsNode = mapper().createObjectNode();
+        deviceStatsNode.put("device", deviceId);
+        final ArrayNode statisticsNode = deviceStatsNode.putArray("ports");
+        if (portStatsEntries != null) {
+            for (final PortStatistics entry : portStatsEntries) {
+                statisticsNode.add(codec(PortStatistics.class).encode(entry, this));
+            }
+        }
+        rootArrayNode.add(deviceStatsNode);
+
+        return ok(root).build();
+    }
+
 }

@@ -1,5 +1,1 @@
-This is where patches need to be placed. We will fetch the patches from this location and apply them to the source code in the build directory, where the code will then be built.
-
-Thanks,
-
-Ash
+This is where to place any files to patch upstream projects. The patches are whole files and must be added with their full relative path. For example, if you're making applying a patch to onos/apps/vtn/vtnrsc/src/main/java/org/onosproject/vtnrsc, then you'll need that entire directory path here. Use copy and paste of the location after running "pwd". You can then use "mkdir -p" to create the full path.

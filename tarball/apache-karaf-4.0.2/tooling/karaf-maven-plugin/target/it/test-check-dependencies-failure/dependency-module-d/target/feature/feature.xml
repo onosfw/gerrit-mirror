@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="dependency-module-d">
-    <feature name="dependency-module-d" description="dependency-module-d" version="1.0.0.SNAPSHOT">
-        <bundle>mvn:test/dependency-module-c/1.0-SNAPSHOT</bundle>
-        <bundle>mvn:test/dependency-module-a/1.0-SNAPSHOT</bundle>
-        <bundle>mvn:test/dependency-module-b/1.0-SNAPSHOT</bundle>
-    </feature>
-</features>

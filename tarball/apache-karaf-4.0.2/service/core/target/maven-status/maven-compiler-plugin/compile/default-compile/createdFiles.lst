@@ -1,8 +1,0 @@
-org/apache/karaf/service/command/ObjectClassMatcher.class
-org/apache/karaf/service/core/internal/osgi/Activator.class
-org/apache/karaf/service/command/ObjectClassCompleter.class
-org/apache/karaf/service/command/ListServices$ServiceClassComparator.class
-org/apache/karaf/service/command/Wait.class
-org/apache/karaf/service/core/internal/ServicesMBeanImpl.class
-org/apache/karaf/service/core/ServicesMBean.class
-org/apache/karaf/service/command/ListServices.class

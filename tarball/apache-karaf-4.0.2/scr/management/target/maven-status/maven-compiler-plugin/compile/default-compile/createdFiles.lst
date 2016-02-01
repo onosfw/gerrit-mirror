@@ -1,5 +1,0 @@
-org/apache/karaf/scr/management/codec/JmxProperty.class
-org/apache/karaf/scr/management/ScrServiceMBean.class
-org/apache/karaf/scr/management/internal/ScrServiceMBeanImpl.class
-org/apache/karaf/scr/management/codec/JmxReference.class
-org/apache/karaf/scr/management/codec/JmxComponent.class

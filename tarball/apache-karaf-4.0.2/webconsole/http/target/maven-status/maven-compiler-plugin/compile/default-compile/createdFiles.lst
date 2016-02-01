@@ -1,6 +1,0 @@
-org/apache/karaf/webconsole/http/Activator.class
-org/apache/karaf/webconsole/http/ServletEventHandler.class
-org/apache/karaf/webconsole/http/WebEventHandler.class
-org/apache/karaf/webconsole/http/WebDetail.class
-org/apache/karaf/webconsole/http/HttpPlugin.class
-org/apache/karaf/webconsole/http/ServletDetails.class

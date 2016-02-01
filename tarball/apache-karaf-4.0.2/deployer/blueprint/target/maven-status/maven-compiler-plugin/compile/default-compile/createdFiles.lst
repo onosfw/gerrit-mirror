@@ -1,6 +1,0 @@
-org/apache/karaf/deployer/blueprint/BlueprintURLHandler.class
-org/apache/karaf/deployer/blueprint/osgi/Activator.class
-org/apache/karaf/deployer/blueprint/BlueprintDeploymentListener.class
-org/apache/karaf/deployer/blueprint/BlueprintTransformer.class
-org/apache/karaf/deployer/blueprint/BlueprintURLHandler$Connection.class
-org/apache/karaf/deployer/blueprint/BlueprintDeploymentListener$1.class

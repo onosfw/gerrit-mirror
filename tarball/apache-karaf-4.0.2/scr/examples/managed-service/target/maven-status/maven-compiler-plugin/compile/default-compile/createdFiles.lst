@@ -1,5 +1,0 @@
-org/apache/karaf/scr/examples/managed/service/component/ManagedGreeterComponent.class
-org/apache/karaf/scr/examples/managed/service/ManagedGreeterService.class
-org/apache/karaf/scr/examples/managed/service/impl/ManagedGreeterServiceImpl$1.class
-org/apache/karaf/scr/examples/managed/service/impl/ManagedGreeterServiceImpl$Worker.class
-org/apache/karaf/scr/examples/managed/service/impl/ManagedGreeterServiceImpl.class

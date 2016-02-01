@@ -1,8 +1,0 @@
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/subsystem/src/main/java/org/apache/karaf/subsystem/commands/UninstallAction.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/subsystem/src/main/java/org/apache/karaf/subsystem/commands/SubsystemCompleter.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/subsystem/src/main/java/org/apache/karaf/subsystem/commands/StopAction.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/subsystem/src/main/java/org/apache/karaf/subsystem/commands/InfoAction.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/subsystem/src/main/java/org/apache/karaf/subsystem/commands/ListAction.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/subsystem/src/main/java/org/apache/karaf/subsystem/commands/InstallAction.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/subsystem/src/main/java/org/apache/karaf/subsystem/commands/StartAction.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/subsystem/src/main/java/org/apache/karaf/subsystem/commands/SubsystemSupport.java

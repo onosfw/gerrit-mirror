@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<features xmlns="http://karaf.apache.org/xmlns/features/v1.3.0" name="test-input-file">
-    <feature name="test-input-file" description="Test Description" version="1.0.0.SNAPSHOT">
-        <details>Test Description</details>
-        <bundle>mvn:test/test-input-file/1.0-SNAPSHOT</bundle>
-    </feature>
-</features>

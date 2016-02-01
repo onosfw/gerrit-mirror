@@ -1,7 +1,0 @@
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/service/core/src/main/java/org/apache/karaf/service/core/internal/ServicesMBeanImpl.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/service/core/src/main/java/org/apache/karaf/service/core/internal/osgi/Activator.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/service/core/src/main/java/org/apache/karaf/service/command/ObjectClassCompleter.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/service/core/src/main/java/org/apache/karaf/service/core/ServicesMBean.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/service/core/src/main/java/org/apache/karaf/service/command/ListServices.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/service/core/src/main/java/org/apache/karaf/service/command/ObjectClassMatcher.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/service/core/src/main/java/org/apache/karaf/service/command/Wait.java

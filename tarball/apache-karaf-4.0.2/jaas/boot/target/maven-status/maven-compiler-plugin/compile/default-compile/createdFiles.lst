@@ -1,6 +1,0 @@
-org/apache/karaf/jaas/boot/principal/RolePrincipal.class
-org/apache/karaf/jaas/boot/ProxyLoginModule.class
-org/apache/karaf/jaas/boot/principal/GroupPrincipal.class
-org/apache/karaf/jaas/boot/principal/RolePolicy.class
-org/apache/karaf/jaas/boot/principal/UserPrincipal.class
-org/apache/karaf/jaas/boot/principal/RolePolicy$1.class

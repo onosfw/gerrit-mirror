@@ -1,8 +1,0 @@
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/http/src/main/java/org/apache/karaf/http/core/internal/ServletServiceImpl.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/http/src/main/java/org/apache/karaf/http/core/HttpMBean.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/http/src/main/java/org/apache/karaf/http/core/ServletInfo.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/http/src/main/java/org/apache/karaf/http/core/ServletService.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/http/src/main/java/org/apache/karaf/http/core/internal/HttpMBeanImpl.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/http/src/main/java/org/apache/karaf/http/core/internal/ServletEventHandler.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/http/src/main/java/org/apache/karaf/http/core/internal/osgi/Activator.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/http/src/main/java/org/apache/karaf/http/command/ServletListCommand.java

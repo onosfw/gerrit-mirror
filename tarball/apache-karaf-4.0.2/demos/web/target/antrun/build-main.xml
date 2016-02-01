@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <move todir="/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/demos/web/target/karaf/WEB-INF/karaf">
-    <fileset dir="/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/demos/web/target/karaf/WEB-INF/apache-karaf-4.0.2"/>
-  </move>
-</target>
-</project>

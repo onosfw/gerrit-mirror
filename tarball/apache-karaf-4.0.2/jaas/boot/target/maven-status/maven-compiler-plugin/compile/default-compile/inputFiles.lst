@@ -1,5 +1,0 @@
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/boot/src/main/java/org/apache/karaf/jaas/boot/ProxyLoginModule.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/boot/src/main/java/org/apache/karaf/jaas/boot/principal/RolePrincipal.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/boot/src/main/java/org/apache/karaf/jaas/boot/principal/RolePolicy.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/boot/src/main/java/org/apache/karaf/jaas/boot/principal/GroupPrincipal.java
-/home/ash/Development/gerrit-onosfw/framework/build/karaf/4.0.2/apache-karaf-4.0.2/jaas/boot/src/main/java/org/apache/karaf/jaas/boot/principal/UserPrincipal.java
